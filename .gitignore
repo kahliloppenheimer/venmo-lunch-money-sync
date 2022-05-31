@@ -1,2 +1,3 @@
 .pdm.toml
 __pypackages__
+transactions_db/
