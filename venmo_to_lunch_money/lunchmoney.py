@@ -24,6 +24,6 @@ def to_lunchmoney_transaction(transaction : Transaction) -> TransactionInsertObj
         date = transaction.created_at.date().isoformat(),
         external_id = transaction.id,
         notes = transaction.note,
-        payee = transaction.payee,
+        payee = transaction.other_person(),
         tags = ['Venmo API']
     )
