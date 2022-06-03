@@ -17,7 +17,7 @@ COPY pdm.lock pyproject.toml /app/
 RUN pdm install
 
 # Add python source
-COPY venmo_auto_cashout /app/venmo_auto_cashout/
+COPY venmo_to_lunch_money /app/venmo_to_lunch_money/
 RUN pdm install
 
-ENTRYPOINT ["pdm", "run", "venmo-auto-cashout"]
+ENTRYPOINT ["pdm", "run", "venmo-to-lunch-money"]

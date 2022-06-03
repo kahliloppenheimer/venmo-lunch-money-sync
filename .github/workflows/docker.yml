@@ -9,10 +9,10 @@ jobs:
         uses: actions/checkout@v2
 
       - name: Pull latest image
-        run: docker pull evanpurkhiser/venmo-auto-cashout:latest
+        run: docker pull kahliloppenheimer/venmo-to-lunch-money:latest
       - name: Build
-        run: docker build --tag=evanpurkhiser/venmo-auto-cashout:latest .
+        run: docker build --tag=kahliloppenheimer/venmo-to-lunch-money:latest .
       - name: Publish
         run: |
-          docker login --username=evanpurkhiser --password-stdin <<< "${{ secrets.DOCKER_HUB_TOKEN }}"
-          docker push evanpurkhiser/venmo-auto-cashout:latest
+          docker login --username=kahliloppenheimer --password-stdin <<< "${{ secrets.DOCKER_HUB_TOKEN }}"
+          docker push kahliloppenheimer/venmo-to-lunch-money:latest

@@ -1,5 +1,5 @@
 [project]
-name = "venmo-auto-cashout"
+name = "venmo-to-lunch-money"
 version = "1.0"
 description = "A tool to post Venmo transactions to Lunch Money"
 authors = [
@@ -17,10 +17,10 @@ dynamic = ["classifiers"]
 license = {text = "MIT"}
 
 [project.urls]
-homepage = "https://github.com/evanpurkhiser/venmo-auto-cashout"
+homepage = "https://github.com/kahliloppenheimer/venmo-to-lunch-money"
 
 [project.scripts]
-venmo-auto-cashout = "venmo_auto_cashout:main"
+venmo-to-lunch-money = "venmo_to_lunch_money:main"
 
 [build-system]
 requires = ["pdm-pep517"]
@@ -39,5 +39,5 @@ skip = "migrations"
 [tool.pdm]
 
 [tool.pyright]
-include = ["venmo_auto_cashout"]
+include = ["venmo_to_lunch_money"]
 extraPaths = ["__pypackages__/3.9/lib"]

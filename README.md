@@ -116,4 +116,4 @@ Python 3.9.6 (default, Aug 30 2021, 00:42:05)
 
 ## Forked from
 
-This tool was originally forked from https://github.com/evanpurkhiser/venmo-auto-cashout, a tool that automates chunking up single venmo balances into individual pay out transactions. Huge props to that author (@evanpurkhiser) for laying down some inspiration for this tool!
+This tool was originally forked from https://github.com/evanpurkhiser/venmo-to-lunch-money, a tool that automates chunking up single venmo balances into individual pay out transactions. Huge props to that author (@evanpurkhiser) for laying down some inspiration for this tool!

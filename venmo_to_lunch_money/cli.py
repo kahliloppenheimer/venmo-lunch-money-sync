@@ -8,8 +8,8 @@ from typing import List, Union
 from datetime import datetime, timedelta
 from sentry_sdk import start_span, start_transaction
 from venmo_api import Client, Transaction
-from venmo_auto_cashout.venmo import load_venmo_transactions
-from venmo_auto_cashout.lunchmoney import post_transactions_to_lunchmoney
+from venmo_to_lunch_money.venmo import load_venmo_transactions
+from venmo_to_lunch_money.lunchmoney import post_transactions_to_lunchmoney
 
 # The Command Line Interface (CLI) for venmo-to-lunch-money.
 def run_cli():

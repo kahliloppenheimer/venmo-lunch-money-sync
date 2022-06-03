@@ -1,6 +1,6 @@
 from os import getenv
 
-from venmo_auto_cashout.cli import run_cli
+from venmo_to_lunch_money.cli import run_cli
 import sentry_sdk
 
 sentry_dsn = getenv("SENTRY_DSN")

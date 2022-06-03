@@ -4,7 +4,7 @@ import venmo_api
 from datetime import datetime
 from time import sleep
 from typing import Callable
-from venmo_auto_cashout.transaction import Transaction, TransactionType
+from venmo_to_lunch_money.transaction import Transaction, TransactionType
 
 # Loads all Venmo transactions between the given start_time (inclusive) to the
 # given end time (exclusive) and returns them as Transaction objects (see
